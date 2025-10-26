@@ -14,6 +14,7 @@ class Agent:
         if 1 < level < 5:
             self.__clearence_level = level
         else:
-            print("setting values have below 1 or above 5")
+            print("Error seting agent, setting values have below 1 or above 5")
+
 
 
